@@ -15,7 +15,7 @@ class Roomba():
         self.master.bind('<Escape>', lambda e: self.master.quit())
 
         self.cleaned = []
-        self.obstacles = []
+        self.obstacles = [[]]
         for i in range(obstacles_number):    
             x = int(input("Introduce la distancia entre el Objeto " + str(i) + " y la pared derecha: "))
             y = int(input("Introduce la distancia entre el Objeto " + str(i) + " y la pared superior: "))
@@ -29,6 +29,7 @@ class Roomba():
         self.room.pack()
         while True:
             self.initiate()
+            mainloop()
     
     def move(self, x, y):
         if not self.detect_obstacle(self.actual_x + x, self.actual_x + y):
@@ -72,6 +73,7 @@ class Roomba():
     def initiate(self):
         x, y, z, w = [], [], [], []
         for i in range(len(self.obstacles)):
+            print(self.obstacles[i])
             x.append(self.obstacles[i][0])
             y.append(self.obstacles[i][1])
             z.append(self.obstacles[i][2])
@@ -91,4 +93,3 @@ class RoombaCalculations():
 if __name__ == "__main__":
     master = Tk()
     roomba = Roomba(master, 500, 500, 1)
-    mainloop()

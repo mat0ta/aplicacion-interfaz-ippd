@@ -89,7 +89,7 @@ length_entry.grid(row=1, column=1)
 # calculate_button = tk.Button(root, text="Calculate", command=calculate_time)
 # calculate_button.grid(row=6, column=0, columnspan=2, pady=10)
 
-next_button = tk.Button(root, text="Next", command=lambda: [obstacle_window(), root.destroy()])
+next_button = tk.Button(root, text="Next", command=lambda: obstacle_window())
 next_button.grid(row=6, column=0, columnspan=2, pady=10)
 
 root.mainloop()

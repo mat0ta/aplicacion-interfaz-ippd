@@ -1,5 +1,7 @@
 # Aplicacion-interfaz-ippd
 
+En este [repositorio](https://github.com/mat0ta/aplicacion-interfaz-ippd) queda el código del rumba y la interfaz gráfica.
+
 <h2>¡Creando una interfaz gráfica!</h2>
 
 Lo primero que hemos hecho para sacar nuestra interfaz gráfica siguiendo la guía del aula virtual es crear un entorno virtual. Para ello abrimos la terminal:

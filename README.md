@@ -2,16 +2,26 @@
 
 <h2>¡Creando una interfaz gráfica!</h2>
 Lo primero que hemos hecho para sacar nuestra interfaz gráfica siguiendo la guía del aula virtual es crear un entorno virtual. Para ello abrimos la terminal:
-(foto)
+
+![capt1](https://user-images.githubusercontent.com/91721699/219425517-3101e24c-eb45-4ec9-abb1-9b47221ef573.png)
+
 y comenzamos comprobando la version actual de python.
-(foto)
+
+![capt2](https://user-images.githubusercontent.com/91721699/219425584-6ca52845-6c83-4b70-ae19-2a294d671ba2.png)
+
 Tras ello, ejecutamos la siguiente linea de código:
-(foto)
+
+![capt3](https://user-images.githubusercontent.com/91721699/219425646-c1687520-029c-45bd-94f0-f3c966be5c98.png)
+
 que crea nuestra carpeta entorno1 con su propio etorno virtual en el que poder importar las librerias necesarias para nuestro proyecto.
-(foto)
+
+![capt4](https://user-images.githubusercontent.com/91721699/219425702-e687bfbf-410b-46a6-a1d2-fd3206a9a327.png)
+
 Como se puede observar en la imagen anterior, nuestro nuevo entorno contiene todas las carpetas necesarias como bin y scripts.
 Tras terminar de configurar nuestro entorno, procedemos a asegurarnos de tener la última versión posible de pip utilizando el comando --upgrade pip.
-(foto)
+
+![capt5](https://user-images.githubusercontent.com/91721699/219425728-2fa387d8-4cf3-46de-a402-4effb505d52a.png)
+
 Para proseguir, hemos recreado y corregido las lecciones del aula Multihilo e IHM:
 
 <h3>Código Multihilo</h3>
@@ -72,7 +82,8 @@ coche = Coche()
 coche.arrancar()
 ```
 El output:
-(imagen)
+
+![capt6](https://user-images.githubusercontent.com/91721699/219425768-124e5335-0b28-4ac8-96b6-326a78b0b069.png)
 
 <h3>Código IHM: Tkinter</h3>
 
@@ -204,8 +215,12 @@ mi_ventana.mainloop()
 
 ```
 El output:
-(imagen)
-(imagen)
+
+![capt7](https://user-images.githubusercontent.com/91721699/219425890-ae15e5c6-6e6b-4959-b9bf-fc2fa01dbeda.png)
+
+![capt8](https://user-images.githubusercontent.com/91721699/219425911-9365184c-5d12-45e4-92a8-247cf038e56c.png)
+
+![capt9](https://user-images.githubusercontent.com/91721699/219425935-d034eaba-6364-4e1a-b333-a571e3f83202.png)
 
 <h3>Código IHM: QT</h3>
 
@@ -369,6 +384,5 @@ if __name__ == '__main__':
 ```
 
 El output:
-(imagen)
-(imagen)
-(imagen)
+
+![capt10](https://user-images.githubusercontent.com/91721699/219425996-abd8fac0-9ac8-45ef-a6e5-3bc92685c7b8.png)

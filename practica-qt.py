@@ -152,4 +152,4 @@ if __name__ == '__main__':
  
     # Inicio del bucle de eventos, cuyo valor 
     # de retorno se utilizará como código de salida de la ejecución. 
-    sys.exit(app.exec_())    
+    sys.exit(app.exec_())

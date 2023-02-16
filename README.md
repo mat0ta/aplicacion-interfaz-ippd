@@ -1,6 +1,7 @@
 # Aplicacion-interfaz-ippd
 
 <h2>¡Creando una interfaz gráfica!</h2>
+
 Lo primero que hemos hecho para sacar nuestra interfaz gráfica siguiendo la guía del aula virtual es crear un entorno virtual. Para ello abrimos la terminal:
 
 ![capt1](https://user-images.githubusercontent.com/91721699/219425517-3101e24c-eb45-4ec9-abb1-9b47221ef573.png)

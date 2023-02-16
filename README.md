@@ -1,6 +1,6 @@
 # Aplicacion-interfaz-ippd
 
-<h1>¡Creando una interfaz gráfica!</h1>
+<h2>¡Creando una interfaz gráfica!</h2>
 Lo primero que hemos hecho para sacar nuestra interfaz gráfica siguiendo la guía del aula virtual es crear un entorno virtual. Para ello abrimos la terminal:
 (foto)
 y comenzamos comprobando la version actual de python.
@@ -14,7 +14,7 @@ Tras terminar de configurar nuestro entorno, procedemos a asegurarnos de tener l
 (foto)
 Para proseguir, hemos recreado y corregido las lecciones del aula Multihilo e IHM:
 
-<h2>Código Multihilo</h2>
+<h3>Código Multihilo</h3>
 
 ```python
 import threading 
@@ -74,7 +74,7 @@ coche.arrancar()
 El output:
 (imagen)
 
-<h2>Código IHM: Tkinter</h2>
+<h3>Código IHM: Tkinter</h3>
 
 ```python
 from tkinter import Frame, Label, Scale, LEFT, HORIZONTAL
@@ -207,7 +207,7 @@ El output:
 (imagen)
 (imagen)
 
-<h2>Código IHM: QT</h2>
+<h3>Código IHM: QT</h3>
 
 ```python
 # No olvidar importar las clases necesarias. 

@@ -6,7 +6,7 @@ import sys
 # crear instancias de futuros widgets en ella. 
 class MainWindow(QMainWindow): 
     def __init__(self): 
-        super(MainWindow, self).__init__() 
+        super(MainWindow, self).__init__()
 
 
 class MainWindow2(QMainWindow): 

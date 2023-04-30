@@ -1,4 +1,3 @@
-import tkinter
 from tkinter import *
 from threading import *
 from time import sleep
@@ -92,4 +91,4 @@ class RoombaCalculations():
 
 if __name__ == "__main__":
     master = Tk()
-    roomba = Roomba(master, 500, 500, 1)
+    roomba = Roomba(master, 500, 690, 1)
